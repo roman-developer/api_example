@@ -1,6 +1,7 @@
 
 Customer.delete_all
 Article.delete_all
+Buy.delete_all
 
 customer_1 = Customer.create(name: "Jose", dni: "12345678E", customer_code: "001A", age: 28)
 customer_2 = Customer.create(name: "Maria", dni: "01345678E", customer_code: "002A", age: 25)
